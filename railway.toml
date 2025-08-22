@@ -3,7 +3,8 @@ builder = "NIXPACKS"
 
 [deploy]
 healthcheckPath = " "
-healthcheckTimeout = 300
+healthcheckTimeout = 
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
+
 
